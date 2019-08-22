@@ -15,6 +15,8 @@ p(ci|x,y) = p(x,y|ci)*p(ci)/p(x,y)
 朴素的意义：假设每个特征相互独立。
 p(a|X) = p(X|a)*p(a)/p(X) = p(x1,x2,x3,x4...,xn|a)*p(a)/p(x1,x2,x3,x4...,xn)
        = (p(x1|a)*p(x2|a)*p(x3|a)*..*p(xn|a))*p(a) / (p(x1)*p(x2)*..*p(xn))
+
+有些情况下贝叶斯方法求出来的结果不好，考虑是不是条件独立假设的原因。
 '''
 
 from numpy import *
