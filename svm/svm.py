@@ -38,7 +38,7 @@ def loadDataSet(fileName):
         lineArr = line.strip().split('\t')
         dataMat.append([float(lineArr[0]), float(lineArr[1])])
         labelMat.append(float(lineArr[2]))
-    return dataMat,labelMat
+    return dataMat, labelMat
 
 '''
 取第二个alpha下标
