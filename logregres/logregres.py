@@ -12,6 +12,7 @@ from numpy import *
 
 '''
 便利函数，打开文件并逐行读取
+第一列全设为1， 用于乘以常数项w0
 
 Returns:
     dataMat: 样本集(x0(0), x1, x2)
