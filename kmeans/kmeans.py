@@ -109,7 +109,7 @@ def kMeans(dataSet, k, distMeas=distEclud, createCent=randCent):
 
 '''
 使用后处理来提高聚类性能
-度量聚类效果的指标：SSE，对应于clusterAssment第一列之和
+度量聚类效果的指标：SSE，对应于clusterAssment第二列之和
 SSE越小表示数据点越接近质心，聚类效果也越好
 一种降低SSE的方法：
     将具有最大SSE值的簇划分为两个簇：将最大簇包含的点过滤出来并在这些点上运行K-均值算法，k为2
